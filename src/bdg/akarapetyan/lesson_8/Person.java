@@ -6,6 +6,7 @@ public class Person {
     private String lastName;
     private String middleName;
     private short age;
+    private Address [] addresses;
 
     public Person (String firstName, short age){
         this.firstName = firstName;
@@ -17,11 +18,12 @@ public class Person {
         this.lastName = lastName;
         this.age = age;
     }
-    public Person (String firstName, String lastName, String middleName, short age){
+    public Person (String firstName, String lastName, String middleName, short age, Address [] addresses){
         this.firstName = firstName;
         this.lastName = lastName;
         this.middleName = middleName;
         this.age = age;
+        this.addresses = addresses;
     }
 
     public void setFirstName(String firstName) {
@@ -56,8 +58,17 @@ public class Person {
         return age;
     }
 
+    public Address[] getAddresses() {
+        return addresses;
+    }
+
+    public void setAddresses(final Address[] addresses) {
+        this.addresses = addresses;
+    }
+
     public String toString() {
-        return "First Name: " + firstName + "\nLast Name: " + lastName + "\nMiddle name: " + middleName + "\nAge: " + age;
+        return "First Name: " + firstName + "\nLast Name: " + lastName + "\nMiddle name: " + middleName + "\nAge: " + age
+                + "\nAddress 1: " + addresses[0] + "\nAddress 2: " + addresses[1] + "\nAddress 3: " + addresses[2];
     }
 }
 
