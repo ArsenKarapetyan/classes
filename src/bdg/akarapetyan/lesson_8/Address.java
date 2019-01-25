@@ -45,4 +45,9 @@ public class Address {
     public String getZipCode() {
         return zipCode;
     }
+
+    @Override
+    public String toString() {
+        return "Street: " + street + " City: " + city + " State: " + state + " zipCode: " + zipCode;
+    }
 }

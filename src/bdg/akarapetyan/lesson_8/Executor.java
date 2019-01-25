@@ -15,7 +15,6 @@ public class Executor {
 
         Person person = new Person("Arsen", "Karapetyan", "Samvelovich", (short)43, add);
         System.out.println(person.toString());
-
     }
 }
 
