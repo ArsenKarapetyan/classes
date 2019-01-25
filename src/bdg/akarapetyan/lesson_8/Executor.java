@@ -17,9 +17,7 @@ public class Executor {
         //System.out.println(person1.toString());
         Employee employee1 = new Employee(1000, person1);
         //System.out.println(employee1.toString());
-
-        System.out.println();
-
+        //System.out.println();
         Person person2 = new Person("Jennifer", "Aniston", "Joanna", (short)25, add);
         //System.out.println(person2.toString());
         Employee employee2 = new Employee(700, person2);
@@ -30,7 +28,7 @@ public class Executor {
         employee [1] = employee2;
 
 
-        Department department = new Department("Accounting", employee, employee1, 1500 );
+        Department department = new Department("Accounting", employee, employee1, employee1.getSalary()+employee2.getSalary() );
         System.out.println(department.toString());
 
     }
