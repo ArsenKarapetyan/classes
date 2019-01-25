@@ -67,7 +67,7 @@ public class Person {
     }
 
     public String toString() {
-        return "First Name: " + firstName + "\nLast Name: " + lastName + "\nMiddle name: " + middleName + "\nAge: " + age
+        return "\nFirst Name: " + firstName + "\nLast Name: " + lastName + "\nMiddle name: " + middleName + "\nAge: " + age
                 + "\nAddress 1: " + addresses[0].toString() + "\nAddress 2: " + addresses[1].toString() + "\nAddress 3: " + addresses[2].toString();
     }
 }
