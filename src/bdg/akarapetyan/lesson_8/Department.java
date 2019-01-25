@@ -48,7 +48,8 @@ public class Department {
 
     @Override
     public String toString() {
-        return "\nDepartment name: " + departmentName + "\n\nEmployee: " + employees[0].getPerson() + employees[1].getPerson() + "\nDepartment Head: " + departmentHeadEmployee.getPerson()
+        return "Department name: " + departmentName + "\n\nEmployee1: " + employees[0].getPerson() + employees[0].toString() + "\n\nEmployee2: " +
+                employees[1].getPerson() + employees[1].toString() +"\n\nDepartment Head: " + departmentHeadEmployee.getPerson()
                 + "\nDepartment salary: " + departmentSalary;
     }
 }

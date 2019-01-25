@@ -20,7 +20,7 @@ public class Executor {
 
         System.out.println();
 
-        Person person2 = new Person("Arsen", "Karapetyan", "Samvelovich", (short)25, add);
+        Person person2 = new Person("Jennifer", "Aniston", "Joanna", (short)25, add);
         //System.out.println(person2.toString());
         Employee employee2 = new Employee(700, person2);
         //System.out.println(employee2.toString());
