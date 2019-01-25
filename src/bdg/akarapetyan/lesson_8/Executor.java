@@ -15,8 +15,18 @@ public class Executor {
 
         Person person1 = new Person("Arsen", "Karapetyan", "Samvelovich", (short)43, add);
         System.out.println(person1.toString());
+        Employee employee1 = new Employee(1000, person1);
+        System.out.println(employee1.toString());
+
+        System.out.println();
+
         Person person2 = new Person("Arsen", "Karapetyan", "Samvelovich", (short)25, add);
         System.out.println(person2.toString());
+        Employee employee2 = new Employee(700, person2);
+        System.out.println(employee2.toString());
+
+
+
     }
 }
 
