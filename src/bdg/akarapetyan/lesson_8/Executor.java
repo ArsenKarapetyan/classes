@@ -27,10 +27,8 @@ public class Executor {
         employee [0] = employee1;
         employee [1] = employee2;
 
-
         Department department = new Department("Accounting", employee, employee1, employee1.getSalary()+employee2.getSalary() );
         System.out.println(department.toString());
-
     }
 }
 
