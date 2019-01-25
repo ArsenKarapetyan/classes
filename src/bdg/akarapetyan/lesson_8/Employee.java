@@ -27,6 +27,6 @@ public class Employee {
     }
 
     public String toString() {
-        return "Salary: " + salary;
+        return "\nSalary: " + salary;
     }
 }

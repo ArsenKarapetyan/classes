@@ -25,7 +25,13 @@ public class Executor {
         Employee employee2 = new Employee(700, person2);
         System.out.println(employee2.toString());
 
+        Employee [] employee = new Employee[2];
+        employee [0] = employee1;
+        employee [1] = employee2;
 
+
+        Department department = new Department("Accounting", employee, employee1, 1500 );
+        System.out.println(department.toString());
 
     }
 }
